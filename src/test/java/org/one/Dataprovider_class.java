@@ -9,16 +9,17 @@ import org.testng.annotations.Test;
 
 public class Dataprovider_class {
 
-	String[][] data= {
-			{ "prabhu","prem1817"},
-			{"prem","pervesh"},
-			{"rajaraman","kasthuri"},
 	
-	};
 	@DataProvider(name="login")
-	public String[][] TestDataProvider() {
-		return data;
+	public Object[][] TestDataProvider() {
+	
+		return new Object[][]
+
+		{	{ "prabhu","prem1817"},{"prem","pervesh"},{"rajaraman","kasthuri"},
+
+};
 	}
+	
 	@Test(dataProvider="login")
 	public void facebook(String username, String password) {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\prem\\eclipse-workspace\\TestOne\\drivers\\chromedriver.exe");

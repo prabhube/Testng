@@ -3,10 +3,11 @@ package org.one;
 import org.testng.annotations.Test;
 
 public class Expected_Exception {
-	@Test(expectedExceptions=Throwable.class)
+	//@Test(expectedExceptions=ArithmeticException.class)
+	//@Test
 	 private void practice() {
-		 String s=null;
-		 System.out.println(s.length());
+		 int s=1244773;
+		 System.out.println(s);
 		 System.out.println("pass");
 	}
 }

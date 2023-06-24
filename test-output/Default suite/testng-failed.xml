@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.one.Dataprovider_class">
+      <class name="org.one.CrossbrowserTesting">
         <methods>
-          <include name="facebook" invocation-numbers="0 1 2"/>
+          <include name="facebook"/>
         </methods>
-      </class> <!-- org.one.Dataprovider_class -->
+      </class> <!-- org.one.CrossbrowserTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

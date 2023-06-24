@@ -1,61 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33004" started-at="2023-03-28T06:18:26Z" finished-at="2023-03-28T06:18:59Z">
+  <suite name="Default suite" duration-ms="29712" started-at="2023-05-14T09:31:46Z" finished-at="2023-05-14T09:32:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33004" started-at="2023-03-28T06:18:26Z" finished-at="2023-03-28T06:18:59Z">
-      <class name="org.one.Dataprovider_class">
-        <test-method status="PASS" signature="facebook(java.lang.String, java.lang.String)[pri:0, instance:org.one.Dataprovider_class@548a9f61]" name="facebook" duration-ms="14672" started-at="2023-03-28T11:48:26Z" data-provider="login" finished-at="2023-03-28T11:48:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[prabhu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[prem1817]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="29712" started-at="2023-05-14T09:31:46Z" finished-at="2023-05-14T09:32:16Z">
+      <class name="org.one.CrossbrowserTesting">
+        <test-method status="PASS" signature="amazon()[pri:0, instance:org.one.CrossbrowserTesting@548a9f61]" name="amazon" duration-ms="11962" started-at="2023-05-14T15:01:46Z" finished-at="2023-05-14T15:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="facebook()[pri:0, instance:org.one.CrossbrowserTesting@548a9f61]" name="facebook" duration-ms="17701" started-at="2023-05-14T15:01:58Z" finished-at="2023-05-14T15:02:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebook -->
-        <test-method status="PASS" signature="facebook(java.lang.String, java.lang.String)[pri:0, instance:org.one.Dataprovider_class@548a9f61]" name="facebook" duration-ms="6122" started-at="2023-03-28T11:48:40Z" data-provider="login" finished-at="2023-03-28T11:48:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[prem]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pervesh]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- facebook -->
-        <test-method status="PASS" signature="facebook(java.lang.String, java.lang.String)[pri:0, instance:org.one.Dataprovider_class@548a9f61]" name="facebook" duration-ms="12160" started-at="2023-03-28T11:48:47Z" data-provider="login" finished-at="2023-03-28T11:48:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rajaraman]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kasthuri]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- facebook -->
-      </class> <!-- org.one.Dataprovider_class -->
+      </class> <!-- org.one.CrossbrowserTesting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
